@@ -36,7 +36,8 @@
 ## 🔍 Key Results  
   My Sole Contributions  
 ### Data analysis (100% independent)  
-- **model building**：  𝐺𝐷𝑃 = β (1) 0 + β1𝑋1 + β2𝑋2 + β3𝑋3 + β4𝑋4 + β5𝑋5 + ε
-ln GNIit = θ_i+δ1i ln HLit + δ2i ln INVit + δ3i ln HCit + δ4i ln GEit + δ5i ln OPENit + μit
-  ```eviews  
+- **model building**：  
+  ```eviews
+  𝐺𝐷𝑃 = β (1) 0 + β1𝑋1 + β2𝑋2 + β3𝑋3 + β4𝑋4 + β5𝑋5 + ε
+  ln GNIit = θ_i+δ1i ln HLit + δ2i ln INVit + δ3i ln HCit + δ4i ln GEit + δ5i ln OPENit + μit
 ![Regression Table]:[Regression Table.xlsx](https://github.com/user-attachments/files/19683335/Regression.Table.xlsx)
