@@ -1,43 +1,44 @@
-# 🎓 UK Higher Education & Income Analysis  
-**Group Project | EPE2313 | Universiti Kebangsaan Malaysia (UKM)**  
-
-## 👥 Team Contributions  
-**My Role**:  
-- **Data Cleaning**: Handled 100% missing values using EViews' `na` command  
-- **Regression Analysis**: Performed OLS regression on `income ~ edu_level + control_vars` (Chapters 3-4)  
-- **Report Writing**: Authored pp.12-18 (Methodology & Results sections)  
-
-## 📂 Files  
-### Data  
-
-- [UK_Education_Income_RawData.xlsx]():  [UK_Education_Income_RawData.xlsx](https://github.com/user-attachments/files/19683228/UK_Education_Income_RawData.xlsx)
-  - Original dataset from UK Office for National Statistics  
-  - Variables: Ln GNI (Economic growth) Ln HL (higher education)Ln INV (investment) Ln HC (household consumption) Ln GE (government expenditure) Ln Open (Trade) 
+📘 Project Title: Impact of Higher Education on Economic Growth in the UK  
+📍 Course: Econometrics (EPE2313), Universiti Kebangsaan Malaysia  
+📅 Semester: [12] 2024  
+🧠 Project Type: Group Coursework (Grade: A)
+This project investigates the impact of higher education levels on the UK's economic growth from a time-series perspective.  
+Using EViews, we conducted an OLS regression analysis with key macroeconomic variables such as household consumption, investment, government expenditure, and trade openness as control variables.
 
 
-### Analysis  
-- [UK_Regression_Data.zip]:  [UK_Regression_Data.zip](https://github.com/user-attachments/files/19683272/UK_Regression_Data.zip)
+📂 Files
 
-  - Final EViews workfile containing:  
-    - Variable Summary Statistics
-    - Ordinary Least Square Method
-    - R- squared
-    - F-Statistic
-    - Multicollinearity
-    - White test
-    - Breusch- Godfrey Serial Correlation
+- 📄 Raw Data: `UK_Education_Income_RawData.xlsx`  [UK_Education_Income_RawData.xlsx](https://github.com/user-attachments/files/19683228/UK_Education_Income_RawData.xlsx)
+  Source: UK Office for National Statistics  
+  Variables: ln GNI, ln HL, ln INV, ln HC, ln GE, ln Open
 
-### Output  
-- [UK_Education_Income_Report.pdf]:  [UK_Education_Income_Report.pdf](https://github.com/user-attachments/files/19683289/UK_Education_Income_Report.pdf)
+- 📊 EViews Workfile:  [UK_Regression_Data.zip](https://github.com/user-attachments/files/19683272/UK_Regression_Data.zip)
+  Includes summary stats, regression outputs, model diagnostics.
 
-  - 13-page group report (A grade)  
-  - My signature sections: **p.5-p.10** (Figure 2-8)
+- 📝 Final Report:  
+  [GroupReport.pdf]( [UK_Education_Income_Report.pdf](https://github.com/user-attachments/files/19683289/UK_Education_Income_Report.pdf)) (13 pages, A Grade)  
+  My sections: pp.12–18 (Methods & Results), Figures 2–8
 
-## 🔍 Key Results  
-  My Sole Contributions  
-### Data analysis (100% independent)  
-- **model building**：  
-  ```eviews
-  𝐺𝐷𝑃 = β (1) 0 + β1𝑋1 + β2𝑋2 + β3𝑋3 + β4𝑋4 + β5𝑋5 + ε
-  ln GNIit = θ_i+δ1i ln HLit + δ2i ln INVit + δ3i ln HCit + δ4i ln GEit + δ5i ln OPENit + μit
-![Regression Table]:[Regression Table.xlsx](https://github.com/user-attachments/files/19683335/Regression.Table.xlsx)
+- 📈 Output Snapshot:  
+  [RegressionTable.xlsx]([Regression Table.xlsx](https://github.com/user-attachments/files/19683335/Regression.Table.xlsx)
+)
+
+👥 My Key Contributions:
+
+- **Data Preprocessing:** Cleaned 100% of missing values using `na` commands in EViews.  
+- **Regression Analysis:** Designed and ran the OLS model:  
+  > ln GNI = β0 + β1 ln HL + β2 ln INV + β3 ln HC + β4 ln GE + β5 ln Open + ε  
+- **Diagnostic Tests:**  
+  > - Multicollinearity (VIF)  
+  > - White Heteroskedasticity Test  
+  > - Breusch-Godfrey Serial Correlation Test  
+- **Report Authoring:**  
+  > - Sole author of pp.12–18 (Methodology & Results)  
+  > - Created Figures 2–8 (pp.5–10)
+
+🔍 Key Insights:
+
+- Higher education (HL) shows a statistically significant positive effect on economic growth (GNI), with strong R-squared and robust diagnostics.
+- This project strengthened my skills in EViews, model interpretation, and collaborative report writing in English.
+
+📌 *Note:* I independently handled all data cleaning, regression, and statistical testing. Please refer to figures and appendix for authored sections.
